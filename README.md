@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Readme"
+description: "Kubernetes Bible Readme"
+---
+
 Kubernetes Bible
 ================
 
