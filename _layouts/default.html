@@ -31,7 +31,7 @@
       <nav>
         <h3>{{ site.data.pages.main_list_title }}</h3>
         <ul>
-          {%s for page in site.data.pages.page_list %}
+          {% for page in site.data.pages.page_list %}
             <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
           {% endfor %}
         </ul>
